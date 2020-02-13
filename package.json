@@ -1,14 +1,14 @@
 {
-  "name": "ffmpeg-static-electron",
+  "name": "ffmpeg-static-electron-jdp",
   "version": "2.0.0",
-  "description": "ffmpeg static binaries for Mac OSX and Linux and Windows",
+  "description": "(do not use) ffmpeg static binaries for Mac OSX and Linux and Windows",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pietrop/ffmpeg-static-electron"
+    "url": "https://github.com/jessedp/ffmpeg-static-electron"
   },
   "keywords": [
     "ffmpeg",
@@ -21,9 +21,12 @@
     "windows"
   ],
   "author": "Pietro Passarelli <pietro.passarelli@gmail.com>",
+  "contributors": [
+    "jessedp <jessedp@gmail.com>"
+  ],
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/eugeneware/ffmpeg-static/issues"
+    "url": "https://github.com/jessedp/ffmpeg-static-electron/issues"
   },
   "dependencies": {},
   "devDependencies": {
